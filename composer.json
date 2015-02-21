@@ -1,12 +1,11 @@
 {
-  "name" : "AdeFlickrGallery",
+  "name" : "AdePictures",
   "description" : "Flickr Photo Gallery in ZF2",
   "require" : {
     "php" : ">=5.3.3",
-    "zendframework/zendframework" : "2.3.*",
-    "zendframework/zendservice-flickr" : "2.0.*"
+    "ade/flickr-gallery": "dev-master"
   },
-  "keywords" : [ "framework", "zf2", "Flickr" ],
   "license" : "BSD-3-Clause",
-  "homepage" : "https://github.com/emontes/AdeFlickrGallery/"
+  "keywords" : [ "framework", "zf2", "Flickr" ],
+  "homepage" : "https://github.com/emontes/AdePictures/"
 }
