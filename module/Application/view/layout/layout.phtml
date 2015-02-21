@@ -11,8 +11,6 @@ if (!isset($this->bodyClass)) {
 
 if (isset($this->menuCollections)){
     $menu = array($this->menuCollections);
-    //\Zend\Debug\Debug::dump($menu);die();
-    //$page = $this->navigation('navigation')->findOneBy('label', 'Home');
     $page = $this->navigation('navigation');
     $page->addPages($menu);
 }
