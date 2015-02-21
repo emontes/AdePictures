@@ -22,8 +22,8 @@ return array(
                         'uri'   => 'http://turistacancun.com/gallery'
                     ),
                     array(
-                        'label' => 'Yucatan',
-                        'uri'   => 'http://www.yucatanpictures.com'
+                        'label' => 'Puebla',
+                        'uri'   => 'http://www.pueblapictures.com'
                     ),
                 )
             ),
