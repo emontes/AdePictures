@@ -1,0 +1,144 @@
+/* Start main colors */
+
+.top-bar-section ul ul li a:hover, .btn-primary, .ef-theme-bg, .ef-metro-icn.ef-theme-bg, .top-bar-section ul li.active > a, .top-bar-section ul li.active:hover > a, .ef-social-bar, .ef-fullscreen-mode #progress-bar, #ef-widgets .tagcloud a:hover, .ef-progress-bar div div, .tagcloud a, #ef-loader i, .ui-accordion .ui-accordion-header .ui-accordion-header-icon, .ui-tabs .ui-tabs-nav li.ui-tabs-active, #ef-gallery .flex-direction-nav a:hover, #ef-contact-form .btn.send, #sb-progress span {
+	background-color: #4eadc5;
+}
+
+#slide_desc a.btn.ef-hollow-btn, #prevslide:hover, #nextslide:hover, #ef-locations ul .icn-location:before, #ef-contact-form label span, #ef-gal-prev:hover, #ef-gal-next:hover, .ef-contact-slider .ui-slider-handle.ui-state-hover, .post-slider-prev:hover, .post-slider-next:hover {
+	color: #4eadc5;
+}
+
+.ef-thumb.flex-active-slide:after, .ui-tabs .ui-tabs-nav li.ui-tabs-active, .ef-contact-slider .ui-slider-handle, .btn-primary, .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+	border-color: #4eadc5;
+}
+
+.ef-tabs.ui-tabs .ui-tabs-panel {
+	border-top-color: #4eadc5;
+}
+
+/* A bit darker tone for hovering and better readability */
+
+a, .social-btn-list a:hover {
+	color: #308da4;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	border-color: #308da4;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #308da4;
+}
+
+/* End main colors */
+
+.top-bar, .toggle-topbar.menu-icon a, .top-bar-section ul li > a, .top-bar-section ul li:hover > a, .top-bar-section ul li.active > a, .top-bar-section .dropdown li.title h5 a, .ef-social-bar a, #slidecounter, #slidecaption, #ef-tray-button:hover, .page-template-templateshome-template #ef-tray-button, #ef-widgets-tab:hover, #ef-widgets a, #ef-widgets-tab.ef-show-widgets, #ef-widgets h6, .page-template-templateshome-template.ef-fullscreen-mode #ef-tray-button:hover, .ef-proj-img h4, #prevslide, #nextslide, .ef-post:hover .ef-read-more, #infscr-loading, .tagcloud a, .ef-post-slider-ctrls *, .ef-label, #ef-gal-prev, #ef-gal-next, #ef-gallery-title, #slide_desc p, #slide_desc h1, #slide_desc h2, #slide_desc h3, #slide_desc h4, #slide_desc h5, #slide_desc h6, .ef-metro-icn, .ef-preloader i, #ef-gallery .flex-direction-nav a, #ef-contact-form .btn.send, #sb-custom-prev:hover, #sb-custom-next:hover, #sb-custom-close:hover, #sb-custom-play:hover:after, .ef-social-bar li a:hover, .post-slider-prev:focus, .post-slider-next:focus, .tagcloud a:hover, .tagcloud a:focus {
+	color: #fff;
+}
+
+.top-bar, .top-bar.expanded .title-area, .top-bar-section ul, #ef-header, #ef-head-inner, #ef-tray-button, .ef-hl-content, .page-template-templateshome-template.ef-fullscreen-mode #ef-tray-button, .ef-post-inner, .ef-links-holder, #ef-page, .ef-sticky-page .ef-page-inner, .ef-contact-slider-holder, .ef-contact-slider .ui-slider-handle, .social-btn-list ul {
+	background-color: #fff;
+}
+
+#ef-gallery .flex-active-slide img {
+	border-color: #fff;
+}
+
+.ef-post-info:before {
+	background-color: #f5f5f5;
+}
+
+.ef-page-inner {
+	background-color: #f1f1f1;
+}
+
+#ef-footer, .ef-post-info {
+	color: #a1a1a1;
+}
+
+.top-bar-section .dropdown li a, #ef-widgets, .ef-post-author, #ef-gallery-info-pane {
+    color: #bababa;
+}
+
+#ef-tray-button, #ef-widgets-tab, .ef-post-inner, .ef-post:hover .ef-proj-img, .ef-links-holder, .ef-lnk, .ef-post-info, .ef-read-more, #ef-exif ul li, .ef-page-inner .ef-hl-content hr, .ui-accordion .ui-accordion-header, .ui-tabs .ui-tabs-panel, .ui-tabs .ui-tabs-nav li, #ef-contact-form input:focus, #ef-contact-form textarea:focus, .ef-contact-slider-holder {
+	border-color: #ececec;
+}
+
+.ef-page-inner hr {
+	border-color: #e0e0e0;
+}
+
+.top-bar.expanded .toggle-topbar a, .ef-contact-slider, #sb-custom-close, .ef-contact-slider .ui-slider-handle, .social-btn-list a {
+	color: #888888;
+}
+
+.btn.ef-hollow-btn.btn-default {
+	border-color: #8a8a8a;
+}
+
+.back.js-generated, #ef-widgets .tagcloud a, #sb-counter {
+	background-color: #707070;
+}
+
+body, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .ef-post-info-inner a:hover, .ef-post-author a:hover, .ef-prev-post:hover, .ef-next-post:hover {
+	color: #606060;
+}
+
+.btn.btn-default.ef-hollow-btn:hover, .btn.btn-default.ef-hollow-btn:focus, .btn.btn-default.ef-hollow-btn:active, .btn.btn-default.ef-hollow-btn.active, .open .dropdown-toggle.btn-default, #ef-gallery-info-pane {
+	border-color: #606060;
+}
+
+#ef-tray-button:hover {
+	border-color: #404040;
+}
+
+#ef-widgets-pane, #ef-widgets-tab:hover, #ef-widgets-tab.ef-show-widgets {
+	background-color: #555555;
+}
+
+.top-bar .toggle-topbar, #ef-tray-button:hover, .page-template-templateshome-template.ef-fullscreen-mode #ef-tray-button:hover, .ef-read-more:after, .tagcloud a:hover, .ef-label, .ef-metro-icn, .ef-preloader, #ef-contact-form .btn.send:hover, #sb-custom-prev:hover, #sb-custom-next:hover, #sb-custom-play:hover {
+	background-color: #404040;
+}
+
+.ef-featured-img, #infscr-loading {
+	background-color: #303030;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a:hover, a:focus, .btn.ef-hollow-btn:hover, #ef-tray-button, #ef-widgets-tab, .page-template-templateshome-template.ef-fullscreen-mode #ef-tray-button, .ef-links-holder a, #ef-filter a, .ef-post-info a, .ef-post-author a, .ef-prev-post, .ef-next-post, #ef-locations ul .icn-location, #sb-title {
+	color: #262626;
+}
+
+body, .top-bar-section .dropdown li a, .top-bar-section ul li > a, .top-bar.expanded, #ef-loader, .ef-proj-img img, #ef-gallery-info-pane, .pace, #ef-gallery .flex-direction-nav a, .page-template-templatesportfolio-template.ef-no-gutters #ef-page {
+	background-color: #202020;
+}
+
+#ef-footer, .ef-post-slider-ctrls, .ef-proj-img h4 {
+	background-color: #000;
+	background-color: rgba(0,0,0,.7);
+}
+
+@media only screen and (min-width: 801px) {
+
+	.top-bar-section li.hover > a, .top-bar-section li:hover > a {
+		color: #fff;
+	}
+
+	.top-bar-section ul li > a {
+		background-color: transparent;
+	}
+
+	.top-bar-section ul li:hover > a, .top-bar-section ul li.active > a, .top-bar-section ul li.active:hover > a {
+		background-color: #404040;
+	}
+
+	.top-bar-section ul li > a {
+		color: #262626;
+	}
+
+}
+
+@media only screen and (max-width: 801px) {
+	.top-bar .top-bar-section ul ul li a:hover {
+		background-color: #202020;
+	}
+}

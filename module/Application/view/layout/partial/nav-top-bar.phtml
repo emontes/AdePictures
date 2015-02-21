@@ -1,0 +1,60 @@
+<ul>
+    <?php foreach ($this->container as $page): ?>
+        <?php if( ! $page->isVisible() || !$this->navigation()->accept($page)) continue; ?>
+        <?php /* @var $page Zend\Navigation\Page\Mvc */ ?>
+        <?php $hasChildren = $page->hasPages() ?>
+        <?php if (!$hasChildren): ?>
+            <?php echo despliegaNormal($page)?>
+        <?php else: ?>
+        	<?php echo despliegaChilds($page)?>
+        <?php endif ?>
+    <?php endforeach ?>
+</ul>
+
+
+
+<?php 
+function despliegaChilds($page) {
+    
+	if ($page->isActive(true)) {
+		$liClass = ' class="has-dropdown active"';
+	} else {
+	    $liClass = ' class="has-dropdown"';
+	}
+	$retorno = '<li' . $liClass . '>';
+	$retorno .= '<a href="' . $page->getHref() . '">';
+	$retorno .= $page->getLabel();
+	$retorno .= '</a>';
+	$retorno .= '<ul class="dropdown">';
+	foreach ($page->getPages() as $child) {
+		if (!$child->hasPages()) {
+			$retorno .= despliegaNormal($child);
+		} else {
+			$retorno .= despliegaChilds($child);
+		}
+	}
+	$retorno .= '</ul>';
+	
+	
+	$retorno .= '</li>';
+	return $retorno;
+}
+
+function despliegaNormal($page) {
+	$retorno = '<li';
+	if ($page->isActive()) {
+		$retorno .= ' class="active"';
+	}
+	$retorno .= '>';
+	$retorno .= '<a href="'. $page->getHref() . '"';
+	if ($page->getTarget() != '') {
+ 		$retorno .= ' target="' . $page->getTarget() . '"';
+    }
+    $retorno .= '>';
+    
+	$retorno .= $page->getLabel();
+	$retorno .= '</a>';
+	$retorno .= '</li>';
+	return $retorno;
+}
+?>

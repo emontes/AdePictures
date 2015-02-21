@@ -1,0 +1,236 @@
+.ui-helper-reset {
+	line-height: inherit;
+}
+
+/* Alerts/panels */
+
+.alert, .panel, .panel-heading, .panel-footer {
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+			border-radius: 0;
+}
+
+/* Accordion */
+
+.ui-accordion .ui-accordion-header {
+	background-color: #fff;
+	font-size: 107.7%;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 1px;
+	position: relative;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.ui-accordion .ui-accordion-header.ui-state-default {
+	-webkit-transition: padding-left 0.3s ease-out;
+	   -moz-transition: padding-left 0.3s ease-out;
+    	-ms-transition: padding-left 0.3s ease-out;
+    	 -o-transition: padding-left 0.3s ease-out;
+			transition: padding-left 0.3s ease-out;
+}
+
+.ui-accordion .ui-accordion-header.ui-accordion-header-active {
+	padding-left: 60px;
+}
+
+.ef-uiaccordion-content-inner p:last-child {
+	margin-bottom: 0;
+}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 3px;
+	margin: 0;
+	line-height: 40px;
+	-webkit-transition: width 0.3s ease-out;
+	   -moz-transition: width 0.3s ease-out;
+    	-ms-transition: width 0.3s ease-out;
+    	 -o-transition: width 0.3s ease-out;
+			transition: width 0.3s ease-out;
+}
+
+.ui-accordion .ui-accordion-header.ui-accordion-header-active .ui-accordion-header-icon {
+	text-indent: 0;
+	width: 40px;
+	font-family: "fontello";
+	text-align: center;
+}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon:after {
+	content: '\e890';
+	position: relative;
+	color: #fff;
+}
+
+.ui-accordion .ui-accordion-content {
+	padding: 20px 0;
+}
+
+/* Tabs */
+
+.ui-tabs .ui-tabs-nav li {
+	background-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-bottom-style: none;
+}
+
+.ui-tabs .ui-tabs-nav li, .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin: 0;
+	padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active * {
+	color: #fff;
+}
+
+.ui-tabs .ui-tabs-nav li * {
+	margin: 0;
+	display: block;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	padding: 10px 20px;
+	font-size: 82.4%;
+}
+
+.ui-tabs .ui-tabs-nav {
+	padding: 0;
+}
+
+.ui-tabs .ui-tabs-panel {
+	background-color: #fff;
+	padding: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-top-width: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.ui-tabs .ui-tabs-panel p:last-child {
+	margin-bottom: 0;
+}
+
+/* Progressbars */
+
+.ef-progress-bar {
+	width: auto;
+	text-transform: uppercase;
+	margin-bottom: 1.25em;
+}
+
+.ef-progress-bar h6 {
+	margin-bottom: 12px;
+	letter-spacing: 0.1em;
+}
+
+.ef-progress-bar div {
+	margin-bottom: 23px;
+	background-color: #fff;
+	position: relative;
+	height: 7px;
+}
+
+.ef-progress-bar span, .ef-progress-bar i {
+	position: absolute;
+}
+
+.ef-progress-bar span {
+	display: block;	
+	width: 100%;
+	height: 100%;
+	border: 1px solid #d1d1d1;
+}
+
+.ef-progress-bar div div {
+	border: 0;
+	width: 0;
+	height: 100%;
+	position: relative;
+	background-color: #404040;
+}
+
+.ef-progress-bar i {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	font-style: normal;
+	width: 30px;
+	height: 30px;
+	line-height: 27px;
+	color: #262626;
+	background-color: #fff;
+	border: 2px solid #404040;
+	top: 0;
+	right: -14px;
+	display: none;
+	-webkit-border-radius: 1000px;
+	   -moz-border-radius: 1000px;
+    		border-radius: 1000px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.ef-progress-bar i:before {
+	display: block;
+	content: "";
+	height: 5px;
+	width: 2px;
+	background-color: #404040;
+	bottom: -5px;
+	left: 50%;
+	margin-left: -1px;
+	position: inherit;
+}
+
+/* Social buttons */
+
+.social-btn-list ul {
+	line-height: 1em;
+	list-style: none;
+	padding: 8px 10px;
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.social-btn-list ul:before {
+	position: absolute;
+	left: -7px;
+	top: 50%;
+	margin-top: -7px;
+	display: inline-block;
+	content: '';
+    border-top: 7px solid transparent;
+    border-right: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+    line-height: 1em;
+}
+
+.social-btn-list li {
+	padding: 0;
+}
+
+.social-btn-list a {
+	font-size: 15px;
+	line-height: 1.3em;
+}
+
+.social-btn-list small {
+	display: inline-block;
+	margin-bottom: 10px;
+}

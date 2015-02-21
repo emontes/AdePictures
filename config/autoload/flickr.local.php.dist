@@ -1,0 +1,60 @@
+<?php
+return array (
+    'flickr' => array(
+        'user_id' => 'YOUR_FLICKR_USER_ID',
+        'key'     => 'YOUR_APPLICATION_KEY',
+        'secret'  => 'YOUR_SECRET',
+        //The initial collection for make the left menu
+        'collections' => array(
+            'puebla' => '73708761-72157628763983773',
+        ),
+        //Any groups that you want to display in your menu
+        'groups' => array(
+            'turistapuebla'    => array(
+                'title' => 'Turista Puebla',
+                'id'    => '1913808@N22',
+                'uri'   => 'turistapuebla',
+            ),
+            'puebla'    => array(
+                'title' => 'Puebla',
+                'id'    => '45956649@N00',
+                'uri'   => 'puebla',
+            ),
+            'quechulaespuebla'    => array(
+                'title' => 'Qué Chula es Puebla',
+                'id'    => '658130@N20',
+                'uri'   => 'quechulaespuebla',
+            ),
+            'flickrpuebla'    => array(
+                'title' => 'Flickr Puebla',
+                'id'    => '780679@N24',
+                'uri'   => 'flickrpuebla',
+            ),
+            'pueblaexpressnoticias'    => array(
+                'title' => 'Puebla Express Noticias',
+                'id'    => '1367241@N21',
+                'uri'   => 'pueblaexpressnoticias',
+            ),
+            'flickerspoblanos'    => array(
+                'title' => 'Flickers Poblanos',
+                'id'    => '10187322@N00',
+                'uri'   => 'flickerspoblanos',
+            ),
+            'arqpue'    => array(
+                'title' => 'Arquitectura Poblana',
+                'id'    => '971441@N24',
+                'uri'   => 'arqpue',
+            ),
+            'iglesias'    => array(
+                'title' => 'Iglesias',
+                'id'    => '334911@N24',
+                'uri'   => 'iglesias',
+            ),
+            'blancoynegro'    => array(
+                'title' => 'Blanco y Negro',
+                'id'    => '931992@N22',
+                'uri'   => 'blancoynegro',
+            ),
+        ),
+    )
+);

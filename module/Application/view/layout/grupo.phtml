@@ -1,0 +1,78 @@
+<?php 
+$this->headMeta()->appendHttpEquiv('Content-Type',
+    'text/html; charset=UTF-8')
+    ->appendHttpEquiv('Content-Language', 'es-MX')
+    ->appendName('viewport', 'width=device-width, initial-scale=1.0, maximum-scale=1.0')
+    ->appendName('author','www.turista.com.mx');
+
+?>
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+  <head>
+    <?php echo $this->headmeta()?>
+    <?php echo $this->headTitle($this->siteName)->setSeparator(' - ')->setAutoEscape(false) ?>
+    <?php echo $this->headlink(array(
+        'rel' => 'shorcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => "/assets/favicon.png")
+    )?>
+    
+    <link href='http://fonts.googleapis.com/css?family=Magra:400,700|Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic&amp;subset=latin,latin-ext,greek-ext,greek,vietnamese,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/topbar.min.css" rel="stylesheet">
+    <link href="/css/shortcodes.css" rel="stylesheet">
+    <link href="/inc/fontello/css/fontello.css" rel="stylesheet">
+    <link href="/inc/fontello/css/animation.css" rel="stylesheet">
+    <link href="/css/shadowbox/shadowbox.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/colors.css" rel="stylesheet">
+
+    <script type="text/javascript" src="/js/modernizr.custom.js"></script>
+    <script type="text/javascript" data-pace-options='{ "restartOnRequestAfter": false, "eventLag": false }' src="/js/pace.min.js"></script>
+    <!--[if lt IE 9]>
+      <link href="css/ie.css" rel="stylesheet">
+      <script src="js/ie/html5shiv.js"></script>
+      <script src="js/ie/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+   <body class="page-template-templatesportfolio-template ef-fullwidth-page ef-has-widgets">
+   <?php echo $this->partial('partial/top-bar')?>
+   
+   <div id="ef-slider-overlay"><img src="/assets/slider-overlay.png" alt=""></div>
+
+   
+    
+    
+
+    <?php echo $this->content?>
+
+    <?php echo $this->partial('partial/footer')?>
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="/js/detectmobilebrowser.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.transit.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/foundation.min.js"></script>
+    <script type="text/javascript" src="/js/topbar.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="/js/imagesloaded.min.js"></script>
+    <script type="text/javascript" src="/js/video/video.min.js"></script>
+    <script type="text/javascript" src="/js/video/bigvideo.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.infinitescroll.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="/js/shortcodes/inview.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.flexslider.min.js"></script>
+    <script type="text/javascript" src="/js/shadowbox/shadowbox.js"></script>
+
+    <script type="text/javascript" src="/js/jquery.mobilemenu.min.js"></script>
+    <script type="text/javascript" src="/js/jflickrfeed.min.js"></script>
+    <script type="text/javascript" src="/js/instagram.min.js"></script>
+
+    <script type="text/javascript" src="/js/shortcodes/custom.js"></script>
+    <script type="text/javascript" src="/js/setup.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+  </body>
+</html>
+   
