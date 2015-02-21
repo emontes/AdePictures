@@ -12,5 +12,5 @@
  */
 
 return array(
-    'siteName' => 'Puebla Pictures',
+    'siteName' => 'Mexico Pictures',
 );
