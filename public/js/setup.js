@@ -21,22 +21,22 @@
 			reverse: false, // Slideshow direction
 			slides: [
 				{
-					image: '/assets/slides/puebla-1.jpg', // Main image (~1600px x Xpx)
-					mobile_image: '/assets/slides/puebla-1-small.jpg', // Main image for mobile devices (~700px x Xpx)
-					thumb: '/assets/slides/puebla-1-thumb.jpg', // thumbnail (Xpx x 100px)
-					description: '<h1>Puebla es el Relicario de América</h1><a href="http://puebla.turista.com.mx" class="btn btn-primary ef-hollow-btn">Conozca Más de Puebla</a>', // Use HTML tags and attributes. !!!All markup should be at one line!!!
-					position: 'bottom-right' // position of the description on the page: 'top-left', 'top-right', 'bottom-right', 'bottom-left'
+					image: '/assets/slides/yucatan-1.jpg', // Main image (~1600px x Xpx)
+					mobile_image: '/assets/slides/yucatan-1-small.jpg', // Main image for mobile devices (~700px x Xpx)
+					thumb: '/assets/slides/yucatan-1-thumb.jpg', // thumbnail (Xpx x 100px)
+					description: '<h1>Yucatán es una Maravilla del Mundo</h1><a href="http://yucatan.turista.com.mx" class="btn btn-primary ef-hollow-btn">Conozca Más de Yucatán</a>', // Use HTML tags and attributes. !!!All markup should be at one line!!!
+					position: 'top-right' // position of the description on the page: 'top-left', 'top-right', 'bottom-right', 'bottom-left'
 				}, {
-					image: '/assets/slides/puebla-2.jpg',
-					mobile_image: '/assets/slides/puebla-2-small.jpg',
-					thumb: '/assets/slides/puebla-2-thumb.jpg',
-					description: '<h1>Necesita Información de Puebla?.</h1><a href="http://puebla.turista.com.mx/pueblainfo.html" class="btn btn-primary ef-hollow-btn">Información de Puebla</a>',
+					image: '/assets/slides/yucatan-2.jpg',
+					mobile_image: '/assets/slides/yucatan-2-small.jpg',
+					thumb: '/assets/slides/yucatan-2-thumb.jpg',
+					description: '<h1>Necesita Información de Yucatán?.</h1><a href="http://yucatan.turista.com.mx/yucataninfo.html" class="btn btn-primary ef-hollow-btn">Información de Yucatán</a>',
 					position: 'bottom-right'
 				}, {
-					image: '/assets/slides/puebla-3.jpg',
-					mobile_image: 'assets/slides/puebla-3-small.jpg',
-					thumb: '/assets/slides/puebla-3-thumb.jpg',
-					description: '<h1>Si quiere Hospedarse en Puebla.</h1><a href="http://puebla.turista.com.mx/hoteles.html" class="btn btn-primary ef-hollow-btn">Hoteles en Puebla</a>',
+					image: '/assets/slides/yucatan-3.jpg',
+					mobile_image: 'assets/slides/yucatan-3-small.jpg',
+					thumb: '/assets/slides/yucatan-3-thumb.jpg',
+					description: '<h1>Si quiere Hospedarse en Yucatán.</h1><a href="http://yucatan.turista.com.mx/hoteles.html" class="btn btn-primary ef-hollow-btn">Hoteles en Yucatán</a>',
 					position: 'top-right'
 				} // Add new arrays, separated by comma. Do not leave comma after the last array because it will breaks slideshow in Internet Explorer.
 			],
