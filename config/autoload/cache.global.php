@@ -33,7 +33,7 @@ return array(
                             'name' => 'filesystem',
                             'options' => array(
                                 'cache_dir' => 'data/cache',
-                                'ttl' => '604800',
+                                'ttl' => '7200',
                             ),
                         ),
                         'plugins' => array(
