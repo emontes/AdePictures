@@ -2,7 +2,8 @@
   "name" : "AdePictures",
   "description" : "Flickr Photo Gallery in ZF2",
   "require" : {
-    "php" : ">=5.3.3",
+    "php" : ">=5.5",
+    "zendframework/zendframework" : "~2.5",
     "ade/flickr-gallery": "dev-master"
   },
   "license" : "BSD-3-Clause",
